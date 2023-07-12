@@ -11,6 +11,7 @@ body {
   padding-top: 30px;
 }
 .selected-color-box {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +21,8 @@ body {
   margin-top: 10px;
   background-color: rgb(46, 205, 146);
   border: none;
-  padding: 10px;
+  padding: 7px;
+  border-radius: 13px;
 }
 .pick-color-btn:hover {
   background-color: rgb(45, 184, 133);
@@ -35,4 +37,7 @@ body {
   color: black;
   padding: 6px 0px 0px 6px;
   font-weight: bold;
+}
+.copied-msg {
+  margin: 8px 0px 3px 19px;
 }

@@ -2,7 +2,7 @@
 const pickBtn = document.querySelector("button");
 const colorGrid = document.querySelector(".color-box");
 const colorValue = document.querySelector(".color-value");
-
+const copiedMsg = document.querySelector(".copied-msg");
 pickBtn.addEventListener("click", async () => {
   chrome.storage.sync.get("color", ({ color }) => {
     console.log(color);
@@ -21,7 +21,7 @@ pickBtn.addEventListener("click", async () => {
         const color = data.result.sRGBHex;
         colorGrid.style.background = color;
         colorValue.innerText = color;
-
+        copiedMsg.innerText = "\u{2714} Copied";
         try {
           await navigator.clipboard.writeText(color);
         } catch (error) {
