@@ -7,5 +7,7 @@ It provides a convenient way to quickly capture and use colors in your projects.
 - Color selection: Use the color picker to choose a color from the spectrum or enter specific color values.
 - Automatic copying: When you select a color, it will be automatically copied to your clipboard for easy pasting.
   
-## Future feature:
-- Save selected colors for later use.
+## Future features
+- Save selected colors for later use
+- Delete from saved
+  
